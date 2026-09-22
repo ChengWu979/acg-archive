@@ -93,6 +93,7 @@ main{background:var(--surface);min-width:0;padding-block:22px 60px;padding-inlin
 .seg button{border:0;background:var(--raised);padding:0 10px;cursor:pointer;color:var(--ink-3);display:grid;place-items:center}
 .seg button[aria-pressed="true"]{background:var(--ink);color:var(--surface)}
 .r18{display:flex;align-items:center;gap:8px;height:36px;padding:0 10px 0 8px;border:1px dashed var(--c);border-radius:8px;color:var(--c);font-size:12px;font-weight:700;cursor:pointer;background:transparent}
+.r18[hidden]{display:none}
 .r18 .knob{width:30px;height:18px;border-radius:9px;background:var(--line);position:relative;transition:background .15s}
 .r18 .knob::after{content:"";position:absolute;top:2px;left:2px;width:14px;height:14px;border-radius:50%;background:var(--raised);transition:transform .15s}
 .r18[aria-checked="true"] .knob{background:var(--c)}
